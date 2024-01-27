@@ -1,0 +1,99 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.logo{
+
+background-repeat: no-repeat;
+background-size: cover;
+height:4rem;
+}
+
+.imag1{
+    height: 100vh;
+    width: 100%;
+    background-image:linear-gradient(rgb(255, 255, 255)  ,rgba(255, 255, 255, 0.686)),url(images/3d-view-house_23-2150150818.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    text-align: center;
+    }
+    /* .himage{
+        background-image:linear-gradient(rgba(255, 255, 255, ), rgba(255, 255, 255, 0.588)), url(images/headerimg.jpg);
+        height: 100vh;
+        width: 100%;
+        background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    } */
+  
+    .imag3{
+        height: 50vh;
+        width: 100%;
+    }
+    section{
+        padding: 40px 0px;
+    }
+
+    .content{
+        text-align: center;
+        justify-content: center;
+        
+    }
+    .ctn{
+        width: 100%;
+    
+    }
+    .box{
+        margin: 0 auto;
+        border-radius: 10px;
+    
+    }
+
+   .driving_img{
+    border-radius: 50%;
+    padding: 40px 90px;
+   }
+   
+   .row{
+    display: flex;
+    justify-content: space-around;
+   }
+   .card1{
+    height: 100px;
+    width: 100px;
+    
+   }
+  .imgss{
+     background-image: url(/images/4.jpg);
+     background-repeat: no-repeat;
+     background-size: contain;
+    height:500px;
+    width: 100%;
+  
+    
+  }
+
+.video_style{
+    width: 100%;
+ height: 300px;
+ padding: 20px;
+}
+.bi-facebook,.bi-instagram,.bi-youtube{
+    height:25px;
+    }
+    
+    .fb
+    {
+        color: #316FF6;
+    }
+    .insta
+    {
+        color: #DD2A7B ;
+    }
+    .yt
+    {
+        color: #FF0000;
+    }
